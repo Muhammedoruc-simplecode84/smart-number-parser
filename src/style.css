@@ -1,0 +1,38 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #ffffff;
+  margin: 0;
+  padding: 40px;
+}
+
+.container {
+  max-width: 420px;
+}
+
+input,
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 12px;
+  font-size: 16px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.result {
+  margin-top: 16px;
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+
+.hint {
+  font-size: 12px;
+  color: #666;
+}
+
+.hidden {
+  display: none;
+}
+

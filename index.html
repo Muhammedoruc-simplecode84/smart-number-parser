@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Number Parser</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1 id="title">Smart Number Parser</h1>
+
+<div style="margin-bottom: 1rem;">
+  <button id="lang-de">DE</button>
+  <button id="lang-en">EN</button>
+</div>
+
+
+      <input
+        id="numberInput"
+        type="text"
+        placeholder="e.g. 450k, 1.2m, 2,500"
+      />
+
+      <button id="parseBtn">Parse</button>
+
+      <div id="result" class="result hidden">
+        <strong id="output"></strong>
+        <p class="hint">Copy-ready numeric value</p>
+        <button id="copyBtn">Copy</button>
+      </div>
+    </main>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
+
