@@ -1,4 +1,13 @@
 # Smart Number Parser
+🚀 Commercial Version
+
+You can purchase the ready-to-use version of this utility here:
+👉 https://DEIN-GUMROAD-LINK
+
+Includes:
+- Full TypeScript source code
+- MIT License
+- Ready-to-use parsing function
 
 A lightweight, dependency-free utility to convert human-friendly number inputs into clean, copy-ready numeric values.
 
@@ -43,4 +52,3 @@ Designed for forms, finance tools, dashboards, spreadsheets, and any UI where us
 parseSmartNumber("450k");   // 450000
 parseSmartNumber("1.2m");  // 1200000
 parseSmartNumber("2,500"); // 2500
-
