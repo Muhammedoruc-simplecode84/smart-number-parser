@@ -2,7 +2,7 @@
 🚀 Commercial Version
 
 You can purchase the ready-to-use version of this utility here:
-👉 https://https://simplecode84.gumroad.com/l/sxdorm
+👉 https://simplecode84.gumroad.com/l/sxdorm
 
 Includes:
 - Full TypeScript source code
@@ -52,4 +52,5 @@ Designed for forms, finance tools, dashboards, spreadsheets, and any UI where us
 parseSmartNumber("450k");   // 450000
 parseSmartNumber("1.2m");  // 1200000
 parseSmartNumber("2,500"); // 2500
+
 
